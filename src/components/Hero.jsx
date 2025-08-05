@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { FaGithub, FaLinkedin, FaCode } from "react-icons/fa";
-import profilePic from "../assets/profile.jpg"; // Make sure to place profile.jpg in src/assets/
+
 
 const Hero = () => {
   return (
@@ -63,10 +63,11 @@ const Hero = () => {
           className="flex justify-center"
         >
           <img
-            src={profilePic}
+            src="/profile.jpg"
             alt="Jeswanth"
             className="w-60 h-60 rounded-full object-cover shadow-lg border-4 border-blue-300"
           />
+
         </motion.div>
       </div>
     </section>
