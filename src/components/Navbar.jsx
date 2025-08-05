@@ -8,7 +8,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 flex justify-between items-center">
         <h1 className="text-2xl font-bold text-blue-700">Jeswanth Palleti</h1>
         <div className="space-x-6">
-          {["education", "projects", "contact"].map((section) => (
+        {["education", "skills", "projects", "contact"].map((section) => (
             <Link
               key={section}
               to={section}
